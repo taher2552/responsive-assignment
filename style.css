@@ -2,14 +2,15 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-size: 1rem;
 }
 
 
 /* general class css */
 
 :root{
-    --primary: #93847D;
-    --secondary:#F1A0A5;
+    --primary: #F1A0A5;
+    --secondary: #93847D;
     --ternary:#EB6E75;
 }
 
@@ -36,14 +37,14 @@
 
  .social li a{
     text-decoration: none;
-    color:var(--primary);
+    color:var(--secondary);
     background-color: #F0F0F0;
     padding: 0.4rem;
     border-radius: 0.4rem;
 }
 
 .heading h4{
-    color:var(--primary);
+    color:var(--secondary);
    
 }
 
@@ -54,7 +55,7 @@
 
 .header_left div{
     margin-left: 1.5rem;
-    color: var(--primary);
+    color: var(--secondary);
 
 }
 
@@ -82,7 +83,7 @@
 }
 
 .new_icon sup{
-    background-color: #EB6E75;
+    background-color:var(--ternary);
     color:white;
     padding: 2px 4px;
     border-radius: 1000px;
@@ -99,7 +100,7 @@
 
 .aircampus h3{
     margin-left: 1rem;
-    color: #F1A0A5;
+    color: var(--primary);
     font-size: 1.5rem;
     font-weight: lighter;
 }
@@ -126,11 +127,64 @@
 .navbar ul li{
     list-style: none;
     margin-right: 1.5rem;
+    font-weight: bold;
 
 
 }
 
 .navbar ul{
     justify-content: center;
+    margin-top: 10px;
+    font-size: 0.7rem;
 }
 
+/* banner section css */
+
+.banner img{
+    width:80vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:50vh;
+    margin-top:10px;
+}
+
+.banner{
+    position: relative;
+}
+
+.banner h3{
+    color:var(--primary);
+    font-weight: lighter;
+    margin-bottom: 0.5rem;
+}
+
+.banner h1{
+    margin-bottom: 0.5rem;
+}
+
+.banner .price{
+    color:var(--secondary);
+    margin-bottom: 0.5rem;
+
+}
+
+.banner .price span{
+    font-size: 1.5rem;
+    font-weight: bold;
+ 
+}
+
+.banner button{
+    border-radius: 5px;
+    background-color: var(--primary);
+    color:white;
+    padding:0.5rem;
+    border: none;
+}
+
+.content{
+    position: absolute;
+    top:40px;
+    left:150px;
+}
