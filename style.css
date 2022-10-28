@@ -117,7 +117,7 @@
 .header2 .search i{
     border: 1px solid #bdbaba;
     border-left:none;
-    padding:0.38rem;
+    padding:0.45rem;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -187,4 +187,52 @@
     position: absolute;
     top:40px;
     left:150px;
+}
+
+/* small tiles section css */
+
+.small_tiles{
+    width:80vw;
+    height: 15vh;
+    /* justify-content: space-between; */
+    justify-content: space-between;
+  
+    margin:1rem;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.tiles{
+    height: 10vh;
+    border:1px solid #bdbaba;
+    border-radius: 10px;
+}
+.small_tiles img{
+    width:3.5rem;
+    height: 3.5rem;
+    margin-right: 0.5rem;
+}
+
+.dress{
+    height: 2rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dress div, .dress span{
+    font-size:1rem;
+
+}
+
+.dress span{
+    margin-left: 3.5rem;
+    color: var(--secondary);
+    
+}
+
+.show{
+   color:#FAA7BB;
+   padding-top: 1rem;
 }
