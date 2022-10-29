@@ -441,7 +441,8 @@
 
 .deal{
    justify-content: center;
-   border:2px solid red;
+   border:2px solid #eee;
+   border-radius:10px;
    width:68%;
    position:absolute;
    top:185%;
