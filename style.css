@@ -141,16 +141,18 @@
 /* banner section css */
 
 .banner img{
-    width:80vw;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     height:50vh;
     margin-top:10px;
+    
 }
 
 .banner{
     position: relative;
+    padding: 1rem;
 }
 
 .banner h3{
@@ -192,21 +194,23 @@
 /* small tiles section css */
 
 .small_tiles{
-    width:80vw;
+    width:100%;
     height: 15vh;
     /* justify-content: space-between; */
     justify-content: space-between;
   
-    margin:1rem;
+    padding:1rem;
     margin-right: auto;
     margin-left: auto;
+ 
 
 }
 .tiles{
-    min-width:18vw;
+    min-width:300px;
     height: 10vh;
     border:1px solid #bdbaba;
     border-radius: 10px;
+  
 
 }
 .small_tiles img{
@@ -244,21 +248,152 @@
 #category{
     width:300px;
     border:1px solid #bdbaba;
+    border-radius: 10px;
+    margin: 1rem;
     padding: 1rem;
+  
+
 }
 
+
+
 .sub_content img{
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2rem;
+    height: 2rem;
 }
 
 .sub_content{
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    width:200px;
-  
+    margin-bottom: 0.5rem;
+}
 
+.first{
+    margin-top: 10px;
+}
+
+.gap{
+    width: 100%;
+}
+
+.gap p{
+    margin-left:10px;
+    font-size: 1rem;
+    color:#444343;
+}
+
+.sticky{
+    position: sticky;
+    top:10px;
+}
+
+.aside{
+    height: 2000px;
+}
+
+/* best sellar section css */
+
+#best_sellar{
+
+    width:300px;
+    margin: 1rem;
+
+}
+
+#best_sellar h4{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+#best_sellar p{
+    color: #444343;
+    font-size: 1.2rem;
+}
+
+.dollar{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.details{
+    margin-bottom: 10px;
+}
+
+.details .detail_img{
+    height: 6rem;
+    width:6rem;
+    margin-right: 1rem;
+}
+
+.star{
+    height: 1.5rem;
+    width:5rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+   
+}
+
+
+
+.details{
+    justify-content:left;
+}
+
+/* summer collection section */
+
+
+.summer_collection{
+    margin: 1rem;
+    margin-top: 50px;
+   width:300px;
+}
+
+.testimonial h4{
+    padding-bottom: 10px;
+   border-bottom:1px solid #eee;
+}
+
+.boundry{
+    border:1px solid #444343;
+    margin-top: 30px;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.boundry .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1000px;
+    width: 8rem;
+    height: 8rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.boundry h4{
+    color:#444343;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+ 
+}
+    
+
+.boundry p{
+    margin-bottom: 10px;
+    color:#444343;
+}
+
+.boundry .collen{
+    height: 1rem;
+    width:1rem;
+    margin-bottom: 10px;
+}
+.boundry p{
+    text-align: center;
+    width:60%;
 }
 
 /* plate section css */
