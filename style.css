@@ -118,7 +118,7 @@
 .header2 .search i{
     border: 1px solid #bdbaba;
     border-left:none;
-    padding:0.45rem;
+    padding:0.65rem;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -388,6 +388,92 @@
     font-weight: bold;
 }
 
+
+/* Deal of the day section */
+
+
+.progress_border{
+    height:12px;
+    width:100%;
+    background-color: #eeeeee;
+}
+
+.pink_progress{
+    background-color: #FF8F9D;
+    width:50%;
+    height:12px;
+}
+
+.red img{
+    height:400px;
+    width:400px;
+}
+
+.facewash img{
+    height:30px;
+    width:200px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.facewash h3{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.price{
+    color:#EB6E75;
+    margin-top: 10px;
+}
+.price del{
+    color: #444343;
+}
+
+.facewash button{
+    color:white;
+    background-color: #EB6E75;
+    border-radius: 10px;
+    padding:10px;
+    margin-top: 10px;
+    border: none;
+}
+
+
+.deal{
+   justify-content: center;
+   border:2px solid red;
+   width:68%;
+   position:absolute;
+   top:185%;
+   left:30%;
+}
+
+.sold{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 1rem;
+}
+
+.hurry{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.year{
+    justify-content: left;
+   
+}
+
+.time{
+    width:80px;
+    margin-right:30px;
+    background-color: #EBEEED;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding:10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
 /* summer collection section */
 
 /* testimonial css */
