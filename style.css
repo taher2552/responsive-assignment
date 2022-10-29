@@ -185,8 +185,8 @@
 
 .content{
     position: absolute;
-    top:40px;
-    left:150px;
+    top:10%;
+    left:20%;
 }
 
 /* small tiles section css */
@@ -203,9 +203,11 @@
 
 }
 .tiles{
+    min-width:18vw;
     height: 10vh;
     border:1px solid #bdbaba;
     border-radius: 10px;
+
 }
 .small_tiles img{
     width:3.5rem;
@@ -236,3 +238,137 @@
    color:#FAA7BB;
    padding-top: 1rem;
 }
+
+/* side category section */
+
+#category{
+    width:300px;
+    border:1px solid #bdbaba;
+    padding: 1rem;
+}
+
+.sub_content img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.sub_content{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width:200px;
+  
+
+}
+
+/* plate section css */
+
+.plate{
+    height: 300px;
+    padding: 1rem;
+    width: 300px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.plate img{
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.fashion{
+    margin-left: 20px;
+}
+
+.fashion .p1{
+    color:#EB6E75;
+    margin-top: 0.5rem;
+}
+
+.fashion .p2{
+    font-weight: bold;
+    
+}
+
+.fashion .p3{
+    color: #444343;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+}
+
+
+/* footer 1 css */
+
+
+.footer1{
+    background-color: #212121;
+    color:#444343;
+    padding:1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.footer1 h4{
+    color:#FAA7BB;
+    margin-bottom: 1rem;
+}
+
+.footer1 span{
+
+    color:#ccc4be;
+
+}
+
+.range{
+    margin-bottom: 1rem;
+}
+
+/* footer2 css */
+
+.footer2{
+    background-color: #212121 ;
+    padding:2rem;
+    
+    /* justify-content: space-around; */
+    border-bottom: 1px solid #eee;
+}
+
+.footer2 h4{
+    color:white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color:#d49f25;
+}
+
+
+
+.footer2 ul li{
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.footer_tiles{
+    color:#444343;
+    width:200px;
+    height: 200px;
+    
+}
+
+/* footer3 css */
+
+.footer3{
+    background-color: #212121;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.footer3 p{
+    margin-top: 1.5px;
+    color:#444343;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
