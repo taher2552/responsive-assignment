@@ -347,8 +347,8 @@
 
 
 .space{
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 .trend{
@@ -360,6 +360,9 @@
 }
 .details2{
     margin-bottom: 10px;
+    border:1px solid #eee;
+    border-radius: 10px;
+    padding:1rem;
 }
 
 .details2 .detail_img{
@@ -375,6 +378,14 @@
     text-decoration-color:#eee;
     font-size: 1rem;
     margin-bottom: 20px;
+}
+
+.new_div div{
+    color:#444343;
+}
+
+.new_div p{
+    font-weight: bold;
 }
 
 /* summer collection section */
