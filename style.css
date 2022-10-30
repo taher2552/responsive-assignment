@@ -855,6 +855,7 @@
         position: relative;
         left:0;
         top:0;
+        margin-top: 50px;
 
     }
 
@@ -911,7 +912,12 @@
     margin-right: auto;
 
   }
-
+  
+  .tiles{
+    padding:40px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+   }
   .footer1{
     margin-top: 800px;
   }
@@ -926,21 +932,33 @@
 
 
   @media only screen and (max-width: 819px){
-    .new_icon, .social, .tiles3, .tiles4, .navbar{
+    .new_icon, .social, .tiles3, .tiles4, .navbar, .aside{
         display: none;
     }
 
     .container{
         margin-left: -120px;
+        
     }
 
-     .marble, .aside, .trend, .deal, .main_products, .summer_collection, .plate, .footer1, .footer2, .footer3{
-        display: none;
+    .heading h4{
+        font-size: 1rem;
     }
 
     .banner{
         height:800px;
+       
     }
+
+   .marble{
+    margin-top: -300px;
+    justify-content: space-evenly;
+   }
+
+   .tiles{
+    padding:50px;
+   }
+  
 
     .content{
         position: absolute;
@@ -953,17 +971,67 @@
         width:60%;
         margin-left: 20%;
     }
+
+    .trend{
+        position: relative;
+        left:0;
+        top:0;
+        margin-top: 50px;
+
+    }
+
+    .deal{
+        position: relative;
+        left:0;
+        top:0;
+        margin-left: 16%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
+
+    .main_products{
+        position: relative;
+        left:0;
+        top:0;
+        justify-content: center;
+
+    }
+
+    .boxes{
+        width:600px;
+        margin-left: auto;
+        margin-right: auto;
+       }
+
+       .sqm{
+        margin-bottom: 30px;
+       }
+
+       .summer_collection{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        flex-direction: column;
+       }
+       
+       .boundry{
+        margin-bottom: 30px;
+       }
+
+    
+
+    
+    /* .main_products, .summer_collection, .plate, .footer1, .footer2, .footer3{ */
+   
+         .plate, .footer1, .footer2, .footer3{
+        display: none;
+    }
     
 
 
   }
 
-  .wrapper{
-    max-width: 1250px;
-    margin-left: auto;
-    margin-right: auto;
-
-}
+ 
 
   @media only screen and (min-width: 1251px){
     .wrapper{
