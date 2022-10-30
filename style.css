@@ -6,6 +6,7 @@
 }
 
 
+
 /* general class css */
 
 :root{
@@ -27,6 +28,9 @@
     margin:10px 0; 
     padding-top: 10px;
     padding-bottom: 10px;
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .icons ul li{
@@ -72,6 +76,9 @@
     padding-top: 10px;
     padding-bottom: 10px;
     width:100%;
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -143,6 +150,7 @@
 
 .banner img{
     width: 100%;
+    max-width: 1250px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -188,8 +196,8 @@
 
 .content{
     position: absolute;
-    top:50px;
-    left:100px;
+    top:80px;
+    left:15%;
 }
 
 /* small tiles section css */
@@ -784,7 +792,7 @@
     .content{
         position: absolute;
         top:50px;
-        left:100px;
+        left:15%;
     }
 
     .marble{
@@ -799,12 +807,14 @@
     .trend{
         position: relative;
         left:0;
+        top:0;
 
     }
 
     .deal{
         position: relative;
         left:0;
+        top:0;
         margin-left: 16%;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -823,6 +833,7 @@
     .main_products{
         position: relative;
         left:0;
+        top:0;
         justify-content: center;
 
     }
@@ -881,7 +892,7 @@
     .content{
         position: absolute;
         top:50px;
-        left:100px;
+        left:15%;
     }
     
 
