@@ -828,7 +828,7 @@
     margin-top: 1.5px;
     color: #444343;
     font-size: 1.2rem;
-    letter-spacing: 2px;
+
 }
 
 
@@ -1246,7 +1246,12 @@
 
     .footer1 {
         margin-top: 820px;
+
+    }
+
+    .footer1 h4 {
         font-size: 0.8rem;
+        margin-right: 100px;
     }
 
     .footer2 {
