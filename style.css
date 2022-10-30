@@ -754,6 +754,12 @@
     font-size: 0.8rem;
 }
 
+.cover {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 
 /* footer 1 css */
@@ -764,6 +770,9 @@
     color: #444343;
     padding: 1rem;
     border-bottom: 1px solid #eee;
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer1 h4 {
@@ -789,6 +798,10 @@
 
     /* justify-content: space-around; */
     border-bottom: 1px solid #eee;
+
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer2 h4 {
@@ -822,6 +835,9 @@
     background-color: #212121;
     text-align: center;
     padding: 1.5rem;
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer3 p {
@@ -1350,6 +1366,8 @@
         padding: 50px;
         margin-top: 50px;
     }
+
+
 
     /* .plate{
     max-width: 1250px;
