@@ -347,6 +347,8 @@
 
 }
 
+
+
 /* best sellar section css */
 
 #best_sellar {
@@ -732,6 +734,7 @@
 
 .fashion {
     margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 .fashion .p1 {
@@ -851,6 +854,10 @@
         margin-left: -120px;
     }
 
+    .heading h4 {
+        margin-left: -50px;
+    }
+
     .banner img {
         height: 300px;
     }
@@ -895,6 +902,10 @@
         align-items: center;
         text-align: center;
 
+    }
+
+    .fashion {
+        margin-bottom: 20px;
     }
 
     .main_products {
@@ -959,10 +970,14 @@
         margin-left: 20%;
     }
 
+    .fashion {
+        margin-bottom: 20px;
+    }
+
 }
 
 
-@media only screen and (max-width: 819px) {
+@media only screen and (max-width: 819px) and (min-width:571px) {
 
     .new_icon,
     .social,
@@ -985,6 +1000,10 @@
     .banner {
         height: 800px;
 
+    }
+
+    .fashion {
+        margin-bottom: 20px;
     }
 
     .marble {
@@ -1084,16 +1103,151 @@
 
 
 
-    /* .main_products, .summer_collection, .plate, .footer1, .footer2, .footer3{ */
-
-
-
-
-
-
 }
 
 
+
+
+
+@media only screen and (min-width: 320px) and (max-width:570px) {
+
+    .new_icon,
+    .social,
+    .tiles3,
+    .tiles4,
+    .navbar,
+    .aside {
+        display: none;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 0.8rem;
+    }
+
+    .header2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tiles2 {
+        display: none;
+    }
+
+    .tiles {
+        padding: 50px;
+        margin-top: 40px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+
+
+    .aside {
+        display: none;
+    }
+
+    .trend {
+        position: relative;
+        left: 0;
+        top: 0;
+        margin-top: 50px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .deal {
+        position: relative;
+        left: 0;
+        top: 0;
+        margin-left: 16%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+        border: none;
+    }
+
+    .facewash {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 5px;
+
+    }
+
+    .year {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main_products {
+        position: relative;
+        left: 0;
+        top: 0;
+        justify-content: center;
+
+
+    }
+
+    .boxes {
+
+        margin-left: 20%;
+    }
+
+    .sqm {
+        margin-bottom: 20px;
+    }
+
+    .main_products h3 {
+
+        font-size: 0.8rem;
+    }
+
+    .summer_collection {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        flex-direction: column;
+        margin: 4px;
+    }
+
+    .boundry {
+        margin-bottom: 10px;
+    }
+
+    .plate {
+        flex-wrap: wrap;
+
+
+        padding-left: 0;
+        margin-left: -8px;
+
+    }
+
+    .fashion {
+        margin-bottom: 20px;
+
+    }
+
+
+
+
+    .footer1,
+    .footer2,
+    .footer3 {
+        display: none;
+    }
+}
 
 @media only screen and (min-width: 1251px) {
     .wrapper {
@@ -1129,6 +1283,10 @@
         left: 35%;
 
 
+    }
+
+    .fashion {
+        margin-bottom: 20px;
     }
 
     .boxes {
