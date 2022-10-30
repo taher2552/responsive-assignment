@@ -130,6 +130,40 @@
     border-bottom-right-radius: 10px;
 }
 
+/* responsive icon css */
+
+.icon_responsive ul{
+    justify-content: center;
+    align-items:center;
+    
+}
+
+.icon_responsive{
+    background-color: var(--primary);
+    width:40%;
+    margin-left:30%;
+    position: fixed;
+    bottom: 0;
+    height: 10vh;
+    padding:10px;
+    z-index: 1000;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-bottom:40px;
+    color:rgb(93, 7, 23);
+    display: none;
+    
+}
+
+.icon_responsive ul li{
+    list-style: none;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 2rem;
+}
+
+
+
 /* navbar css */
 
 .navbar ul li{
@@ -204,10 +238,9 @@
 
 .marble{
     width:100%;
+    max-width: 1250px;
     height: 15vh;
-    /* justify-content: space-between; */
     justify-content: space-between;
-  
     padding:1rem;
     margin-right: auto;
     margin-left: auto;
@@ -254,6 +287,12 @@
 }
 
 /* side category section */
+
+.wrapper{
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 #category{
     width:300px;
@@ -546,6 +585,9 @@
 .summer_collection{
     margin: 1rem;
     margin-top: 200px;
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
@@ -605,6 +647,9 @@
 .collection img{
     margin-left: 30px;
     margin-right: 30px;
+    width:480px;
+    height: 480px;
+   
 }
 
 .summer{
@@ -660,6 +705,8 @@
     width: 300px;
     margin-top: 2rem;
     margin-bottom: 2rem;
+ 
+
 }
 
 .plate img{
@@ -772,7 +819,7 @@
 @media only screen and (max-width: 1250px) and (min-width:820px){
  
 
-    .new_icon, .social, .tiles3, .tiles4{
+    .new_icon, .social, .tiles3, .tiles4, .navbar{
         display: none;
     }
 
@@ -868,12 +915,18 @@
   .footer1{
     margin-top: 800px;
   }
+
+  .icon_responsive{
+    display: block;
+    width:60%;
+    margin-left: 20%;
+}
   
   }
 
 
   @media only screen and (max-width: 819px){
-    .new_icon, .social, .tiles3, .tiles4{
+    .new_icon, .social, .tiles3, .tiles4, .navbar{
         display: none;
     }
 
@@ -881,7 +934,7 @@
         margin-left: -120px;
     }
 
-     .marble, .aside, .trend, .deal, .main_products, .summer_collection, .plate, .footer1, .footer2, .footer3{
+     .marble, .aside, .trend, .deal, .main_products, .summer_collection, .plate, .footer1, .footer2, .footer3,{
         display: none;
     }
 
@@ -894,8 +947,82 @@
         top:50px;
         left:15%;
     }
+
+    .icon_responsive{
+        display:block;
+        width:60%;
+        margin-left: 20%;
+    }
     
 
 
   }
+
+  .wrapper{
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+  @media only screen and (min-width: 1251px){
+    .wrapper{
+        max-width: 1250px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .trend{
+        justify-content: center;
+        position: absolute;
+        top:750px;
+        left:35%;
+        flex-wrap: nowrap;
+    
+    }
+
+    .space{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+   .deal{
+    top:1400px;
+    left:33%;
+    width:60%;
+    margin-right: 1rem;
+   }
+
+   .main_products{
+    top:1850px;
+    left:35%;
+    
+
+   }
+
+   .boxes{
+    flex-wrap: nowrap;
+    justify-content: space-between;
+   }
+
+   .red img{
+    width:250px;
+   }
+
+
+   .summer_collection{
+    margin-top: 400px;
+
+   }
+
+   /* .plate{
+    max-width: 1250px;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+   } */
+   
+   }
+  
 
