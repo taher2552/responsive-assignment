@@ -146,7 +146,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height:50vh;
+    height:400px;
     margin-top:10px;
     
 }
@@ -188,8 +188,8 @@
 
 .content{
     position: absolute;
-    top:10%;
-    left:20%;
+    top:50px;
+    left:100px;
 }
 
 /* small tiles section css */
@@ -356,7 +356,7 @@
 .trend{
     justify-content: center;
     position: absolute;
-    top:100%;
+    top:750px;
     left:30%;
     flex-wrap: wrap;
 
@@ -448,7 +448,7 @@
    border-radius:10px;
    width:68%;
    position:absolute;
-   top:185%;
+   top:1300px;
    left:30%;
 }
 
@@ -485,7 +485,7 @@
 .square{
     border: 2px solid #eee;
     border-radius: 10px;
-    width:210px;
+    width:200px;
     margin-right: 25px;
     padding: 1rem;
 }
@@ -526,7 +526,7 @@
 
 .main_products{
     position: absolute;
-    top:250%;
+    top:1750px;
     left:30%;
 }
 
@@ -777,6 +777,16 @@
         margin-left: -120px;
     }
 
+    .banner img{
+        height:300px;
+    }
+
+    .content{
+        position: absolute;
+        top:50px;
+        left:100px;
+    }
+
     .marble{
         justify-content: space-around;
       
@@ -856,7 +866,24 @@
         display: none;
     }
 
-    .
+    .container{
+        margin-left: -120px;
+    }
+
+     .marble, .aside, .trend, .deal, .main_products, .summer_collection, .plate, .footer1, .footer2, .footer3{
+        display: none;
+    }
+
+    .banner{
+        height:800px;
+    }
+
+    .content{
+        position: absolute;
+        top:50px;
+        left:100px;
+    }
+    
 
 
   }
