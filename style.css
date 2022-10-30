@@ -972,7 +972,21 @@
         margin-top: 800px;
     }
 
-    .footer2 {
+    .footer1 h4 {
+        margin-left: 50px;
+    }
+
+    .range {
+        margin-left: 50px;
+    }
+
+    .footer_tiles h4,
+    .footer_tiles ul li {
+        margin-left: 50px;
+
+    }
+
+    .footer1 .footer2 {
         padding-bottom: 60px;
     }
 
@@ -1099,8 +1113,14 @@
 
     }
 
+    .cover {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .footer1 {
-        margin-top: 750px;
+        margin-top: 800px;
     }
 
     .footer2 {
@@ -1245,14 +1265,15 @@
 
     .plate {
         flex-wrap: wrap;
-
-
         padding-left: 0;
         margin-left: 50px;
 
+    }
 
-
-
+    .cover {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .fashion {
