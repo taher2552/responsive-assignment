@@ -290,7 +290,7 @@
 }
 
 .aside{
-    height: 2000px;
+    height: 1800px;
 }
 
 /* best sellar section css */
@@ -475,6 +475,41 @@
     text-align: center;
     margin-bottom: 10px;
 }
+
+
+/* main products css */
+
+.square{
+    border: 2px solid #eee;
+    border-radius: 10px;
+    width:200px;
+    margin-left: 20px;
+}
+
+.square .slab{
+    height: 100px;
+    width:100px;
+}
+
+.square .new_star{
+    height: 20px;
+    width:100px;
+
+}
+
+.boxes{
+    justify-content: space-around;
+    width:100%;
+    margin:25px 0;
+    
+}
+
+.main_products{
+    position: absolute;
+    top:250%;
+    left:30%;
+}
+
 /* summer collection section */
 
 /* testimonial css */
