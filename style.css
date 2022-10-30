@@ -695,7 +695,7 @@
     
     /* justify-content: space-around; */
     border-bottom: 1px solid #eee;
-}
+} 
 
 .footer2 h4{
     color:white;
@@ -718,6 +718,7 @@
     color:#444343;
     width:200px;
     height: 200px;
+    margin-bottom: 2rem;
     
 }
 
