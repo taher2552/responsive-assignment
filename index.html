@@ -4,18 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wear n Care</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- this cdn link is for fa icons  -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
   </head>
   <body>
-    <header class="container flex">
-      <div class="icons">
+    <!-- this is header section. In header tag there are two diffrent div represent the first and second header respectively -->
+    <header class="container_property">
+      <!-- in header 1 we have social media icons , free shipping line and two select option of usd and language -->
+      <div class="header1 flex">
         <ul class="social flex">
           <li>
             <a href="https://www.facebook.com"
@@ -38,39 +39,68 @@
             ></a>
           </li>
         </ul>
+
+        <p><b>FREE SHIPPING</b> THIS WEEK ORDER OVER -$55</p>
+        <div class="select">
+          <select name="currency" id="currency">
+            <option value="usd">Usd$</option>
+            <option value="rupess">INR</option>
+            <option value="dirham">Dirham</option>
+          </select>
+
+          <select name="language" id="language">
+            <option value="English">Eng</option>
+            <option value="Hindi">Hindi</option>
+            <option value="Arabic">Arabic</option>
+          </select>
+        </div>
       </div>
 
-      <div class="heading">
-        <h4>FREE SHIPPING THIS WEEK ORDER OVER -$55</h4>
-      </div>
-
-      <div class="header_left flex">
-        <div>USD $ <i class="fa fa-angle-down" aria-hidden="true"></i></div>
-        <div>ENGLISH <i class="fa fa-angle-down" aria-hidden="true"></i></div>
-      </div>
-    </header>
-
-    <header class="header2 flex">
-      <div class="aircampus">
+      <div class="header2 flex">
         <h3>AirCommerce</h3>
-      </div>
-      <div class="search flex">
-        <input type="text" placeholder="Enter your product name..." />
-        <i class="fa fa-search" aria-hidden="true"></i>
+
+        <div class="search">
+          <input type="text" placeholder="Enter your product name..." />
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+
+        <ul class="icon flex">
+          <li><i class="fa fa-user-o" aria-hidden="true"></i><sup></sup></li>
+          <li>
+            <i class="fa fa-heart-o" aria-hidden="true"></i
+            ><sup class="sup">0</sup>
+          </li>
+          <li>
+            <i class="fa fa-shopping-bag" aria-hidden="true"></i
+            ><sup class="sup">0</sup>
+          </li>
+        </ul>
       </div>
 
-      <div class="new_icon">
-        <ul class="flex ul2">
+      <div class="icon_responsive container_property">
+        <ul class="flex">
+          <li><i class="fa fa-bars" aria-hidden="true"></i></li>
           <li><i class="fa fa-user-o" aria-hidden="true"></i></li>
-          <li><i class="fa fa-heart-o" aria-hidden="true"></i><sup>0</sup></li>
           <li>
-            <i class="fa fa-shopping-bag" aria-hidden="true"></i><sup>0</sup>
+            <i class="fa fa-heart-o" aria-hidden="true"></i
+            ><sup class="sup">0</sup>
           </li>
+          <li>
+            <i class="fa fa-shopping-bag" aria-hidden="true"></i
+            ><sup class="sup">0</sup>
+          </li>
+          <li><i class="fa fa-plus-square" aria-hidden="true"></i></li>
         </ul>
       </div>
     </header>
 
-    <nav class="navbar">
+    <!-- header icons responsive section with hamburgur and plus icon  -->
+
+    <!-- header section over  -->
+
+    <!-- navbar menu html which includes home categeroies men, women, jewellery, perfume, blogs, and hot offer section -->
+
+    <nav class="navbar container_property">
       <ul class="flex">
         <li class="h">Home</li>
         <li>Categories</li>
@@ -79,165 +109,168 @@
         <li>Jewellery</li>
         <li>Perfumes</li>
         <li>Blog</li>
-        <li class="l">Hot Offer</li>
+        <li>Hot Offer</li>
       </ul>
     </nav>
+  </body>
+</html>
 
-    <section class="banner">
-      <img src="images/banner-1.jpg" alt="" />
-      <div class="content">
-        <h3>Trending Items</h3>
-        <h1>
-          Womens Latest <br />
-          Fashion Sale
-        </h1>
-        <div class="price">Starting at $ <span>20</span>.00</div>
-        <button>Shop Now</button>
-      </div>
-    </section>
+<!-- navbar section ends here  -->
 
-    <section class="marble flex">
-      <div class="tiles flex">
+<!-- banner section start here  -->
+
+<section class="banner container_property">
+  <div class="content">
+    <h3>Trending Items</h3>
+    <h1>
+      Womens Latest <br />
+      Fashion Sale
+    </h1>
+    <div class="price">Starting at $ <span>20</span>.00</div>
+    <button>Shop Now</button>
+  </div>
+</section>
+
+<!-- banner section ends here  -->
+
+<!-- tiles section start from here  -->
+
+<section class="marble flex container_property">
+  <div class="tiles flex">
+    <img src="images/icons/dress.svg" alt="" />
+    <div class="dress">
+      <span class="frock">Dress and Frock</span>
+      <span class="number">(53)</span>
+      <div class="show">Show All</div>
+    </div>
+  </div>
+  <div class="tiles flex">
+    <img src="images/icons/dress.svg" alt="" />
+    <div class="dress">
+      <span class="frock">Dress and Frock</span>
+      <span class="number">(53)</span>
+      <div class="show">Show All</div>
+    </div>
+  </div>
+  <div class="tiles flex">
+    <img src="images/icons/dress.svg" alt="" />
+    <div class="dress">
+      <span class="frock">Dress and Frock</span>
+      <span class="number">(53)</span>
+      <div class="show">Show All</div>
+    </div>
+  </div>
+  <div class="tiles flex">
+    <img src="images/icons/dress.svg" alt="" />
+    <div class="dress">
+      <span class="frock">Dress and Frock</span>
+      <span class="number">(53)</span>
+      <div class="show">Show All</div>
+    </div>
+  </div>
+</section>
+
+<!-- tiles section ends here  -->
+
+<!-- main section starts from here  -->
+
+<main class="main_content container_property">
+  <!-- side section starts here  -->
+
+  <aside class="aside">
+    <div id="category">
+      <h4>Category</h4>
+      <div class="sub_content first">
         <img src="images/icons/dress.svg" alt="" />
-
-        <div class="dress">
-          <div>Dress and Frock <span>(53)</span></div>
-          <div class="show">Show All</div>
+        <div class="gap flex">
+          <p>Clothes</p>
+          <div>+</div>
         </div>
       </div>
-      <div class="tiles tiles2 flex">
-        <img src="images/icons/dress.svg" alt="" />
-
-        <div class="dress">
-          <div>Dress and Frock <span>(53)</span></div>
-          <div class="show">Show All</div>
+      <div class="sub_content">
+        <img src="images/icons/shoes.svg" alt="" />
+        <div class="gap flex">
+          <p>Footwear</p>
+          <div>+</div>
         </div>
       </div>
-      <div class="tiles tiles3 flex">
-        <img src="images/icons/dress.svg" alt="" />
-
-        <div class="dress">
-          <div>Dress and Frock <span>(53)</span></div>
-          <div class="show">Show All</div>
+      <div class="sub_content">
+        <img src="images/icons/jewelry.svg" alt="" />
+        <div class="gap flex">
+          <p>Jewellery</p>
+          <div>+</div>
         </div>
       </div>
-      <div class="tiles tiles4 flex">
-        <img src="images/icons/dress.svg" alt="" />
-
-        <div class="dress">
-          <div>Dress and Frock <span>(53)</span></div>
-          <div class="show">Show All</div>
+      <div class="sub_content">
+        <img src="images/icons/perfume.svg" alt="" />
+        <div class="gap flex">
+          <p>Perfume</p>
+          <div>+</div>
         </div>
       </div>
-    </section>
-
-    <section class="icon_responsive">
-      <ul class="flex">
-        <li><i class="fa fa-bars" aria-hidden="true"></i></li>
-        <li><i class="fa fa-user-o" aria-hidden="true"></i></li>
-        <li><i class="fa fa-heart-o" aria-hidden="true"></i><sup>0</sup></li>
-        <li>
-          <i class="fa fa-shopping-bag" aria-hidden="true"></i><sup>0</sup>
-        </li>
-        <li><i class="fa fa-plus-square" aria-hidden="true"></i></li>
-      </ul>
-    </section>
-
-    <main class="wrapper">
-      <aside class="aside">
-        <div class="sticky">
-          <div id="category">
-            <h4>Category</h4>
-            <div class="sub_content first">
-              <img src="images/icons/dress.svg" alt="" />
-              <div class="gap flex">
-                <p>Clothes</p>
-                <div>+</div>
-              </div>
-            </div>
-            <div class="sub_content">
-              <img src="images/icons/shoes.svg" alt="" />
-              <div class="gap flex">
-                <p>Footwear</p>
-                <div>+</div>
-              </div>
-            </div>
-            <div class="sub_content">
-              <img src="images/icons/jewelry.svg" alt="" />
-              <div class="gap flex">
-                <p>Jewellery</p>
-                <div>+</div>
-              </div>
-            </div>
-            <div class="sub_content">
-              <img src="images/icons/perfume.svg" alt="" />
-              <div class="gap flex">
-                <p>Perfume</p>
-                <div>+</div>
-              </div>
-            </div>
-            <div class="sub_content">
-              <img src="images/icons/cosmetics.svg" alt="" />
-              <div class="gap flex">
-                <p>Cosmetics</p>
-                <div>+</div>
-              </div>
-            </div>
-            <div class="sub_content">
-              <img src="images/icons/glasses.svg" alt="" />
-              <div class="gap flex">
-                <p>Glasses</p>
-                <div>+</div>
-              </div>
-            </div>
-            <div class="sub_content">
-              <img src="images/icons/bag.svg" alt="" />
-              <div class="gap flex">
-                <p>Bags</p>
-                <div>+</div>
-              </div>
-            </div>
-          </div>
-
-          <div id="best_sellar">
-            <h4>Best Sellers</h4>
-            <div class="details flex">
-              <img src="images/products/1.jpg" alt="" class="detail_img" />
-              <div class="new_div">
-                <p>Baby Fabric Shoes</p>
-                <img src="images/stars_4.5.png" alt="" class="star" />
-                <p><del>$5.00</del> <span class="dollar">$4.00</span></p>
-              </div>
-            </div>
-            <div class="details flex">
-              <img src="images/products/2.jpg" alt="" class="detail_img" />
-              <div class="new_div">
-                <p>Men's Hoodies T-Shirt</p>
-                <img src="images/stars_4.5.png" alt="" class="star" />
-                <p><del>$17.00</del> <span class="dollar">$7.00</span></p>
-              </div>
-            </div>
-            <div class="details flex">
-              <img src="images/products/3.jpg" alt="" class="detail_img" />
-              <div class="new_div">
-                <p>Girls T-Shirt</p>
-                <img src="images/stars_4.5.png" alt="" class="star" />
-                <p><del>$5.00</del> <span class="dollar">$3.00</span></p>
-              </div>
-            </div>
-            <div class="details flex">
-              <img src="images/products/4.jpg" alt="" class="detail_img" />
-              <div class="new_div">
-                <p>Woolen Hat's for Men</p>
-                <img src="images/stars_4.5.png" alt="" class="star" />
-                <p><del>$15.00</del> <span class="dollar">$12.00</span></p>
-              </div>
-            </div>
-          </div>
+      <div class="sub_content">
+        <img src="images/icons/cosmetics.svg" alt="" />
+        <div class="gap flex">
+          <p>Cosmetics</p>
+          <div>+</div>
         </div>
-      </aside>
+      </div>
+      <div class="sub_content">
+        <img src="images/icons/glasses.svg" alt="" />
+        <div class="gap flex">
+          <p>Glasses</p>
+          <div>+</div>
+        </div>
+      </div>
+      <div class="sub_content">
+        <img src="images/icons/bag.svg" alt="" />
+        <div class="gap flex">
+          <p>Bags</p>
+          <div>+</div>
+        </div>
+      </div>
+    </div>
 
-      <section class="trend flex">
+    <div id="best_sellar">
+      <h4>Best Sellers</h4>
+      <div class="details flex">
+        <img src="images/products/1.jpg" alt="" class="detail_img" />
+        <div class="new_div">
+          <p>Baby Fabric Shoes</p>
+          <img src="images/stars_4.5.png" alt="" class="star" />
+          <p><del>$5.00</del> <span class="dollar">$4.00</span></p>
+        </div>
+      </div>
+      <div class="details flex">
+        <img src="images/products/2.jpg" alt="" class="detail_img" />
+        <div class="new_div">
+          <p>Men's Hoodies T-Shirt</p>
+          <img src="images/stars_4.5.png" alt="" class="star" />
+          <p><del>$17.00</del> <span class="dollar">$7.00</span></p>
+        </div>
+      </div>
+      <div class="details flex">
+        <img src="images/products/3.jpg" alt="" class="detail_img" />
+        <div class="new_div">
+          <p>Girls T-Shirt</p>
+          <img src="images/stars_4.5.png" alt="" class="star" />
+          <p><del>$5.00</del> <span class="dollar">$3.00</span></p>
+        </div>
+      </div>
+      <div class="details flex">
+        <img src="images/products/4.jpg" alt="" class="detail_img" />
+        <div class="new_div">
+          <p>Woolen Hat's for Men</p>
+          <img src="images/stars_4.5.png" alt="" class="star" />
+          <p><del>$15.00</del> <span class="dollar">$12.00</span></p>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <div class="items">
+    <div class="first_list">
+      <section class="trend">
         <div class="new_arrival2">
           <h4>New arrival</h4>
           <div class="details2 flex">
@@ -290,7 +323,7 @@
           </div>
         </div>
 
-        <div class="new_arrival2 space">
+        <div class="new_arrival2">
           <h4>Trendings</h4>
           <div class="details2 flex">
             <img src="images/products/sports-1.jpg" alt="" class="detail_img" />
@@ -406,7 +439,7 @@
 
       <main class="main_products">
         <h3>New Products</h3>
-        <div class="boxes flex">
+        <div class="boxes">
           <div class="square sqm">
             <img src="images/products/jacket-1.jpg" alt="" class="slab" />
             <h4>Jacket</h4>
@@ -436,7 +469,7 @@
             <p class="price">$150.00 <del>$200.00</del></p>
           </div>
         </div>
-        <div class="boxes flex">
+        <div class="boxes">
           <div class="square sqm">
             <img src="images/products/jacket-5.jpg" alt="" class="slab" />
             <h4>Jacket</h4>
@@ -466,7 +499,7 @@
             <p class="price">$150.00 <del>$200.00</del></p>
           </div>
         </div>
-        <div class="boxes flex">
+        <div class="boxes">
           <div class="square sqm">
             <img src="images/products/sports-1.jpg" alt="" class="slab" />
             <h4>Jacket</h4>
@@ -497,166 +530,186 @@
           </div>
         </div>
       </main>
-    </main>
+    </div>
+  </div>
 
-    <section class="summer_collection flex">
-      <div class="testimonial">
-        <h4>Testimonial</h4>
-        <div class="boundry flex">
-          <img src="images/testimonial-1.jpg" alt="" class="image" />
-          <h4>Alan Doe</h4>
-          <p>CEO & Founder Invision</p>
-          <img src="images/icons/quotes.svg" alt="" class="collen" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
-            provident labore.
-          </p>
-        </div>
-      </div>
-      <div class="collection">
-        <div class="summer">
-          <img src="images/cta-banner.jpg" alt="" />
-          <div class="summer_child flex">
-            <button>25% Discount</button>
-            <h3>Summer Collection</h3>
-            <p>Starting @ rs 10</p>
-            <h4>Shop now</h4>
-          </div>
-        </div>
-      </div>
-      <div class="testimonial">
-        <h4>Our Services</h4>
-        <div class="boundry flex">
-          <img src="images/testimonial-1.jpg" alt="" class="image" />
-          <h4>Alan Doe</h4>
-          <p>CEO & Founder Invision</p>
-          <img src="images/icons/quotes.svg" alt="" class="collen" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
-            provident labore.
-          </p>
-        </div>
-      </div>
-      <!-- <div class="services"></div> -->
-    </section>
+  <!-- side section ends here  -->
 
-    <section class="cover">
-      <section class="plate flex">
-        <div class="fashion">
-          <img src="images/blog-1.jpg" alt="" />
-          <p class="p1">Fashion</p>
-          <p class="p2">
-            Clothes retail Kpis 2021 Guide for Clothes Executives
-          </p>
-          <p class="p3">By Mr Admin / Apr 06,2022</p>
-        </div>
-        <div class="fashion">
-          <img src="images/blog-2.jpg" alt="" srcset="" />
-          <p class="p1">Clothes</p>
-          <p class="p2">
-            Curbside fashion Trends: How to Win the Pickup Battle
-          </p>
-          <p class="p3">By Mr Robin / Jan 18,2022</p>
-        </div>
-        <div class="fashion">
-          <img src="images/blog-3.jpg" alt="" srcset="" />
-          <p class="p1">Electronics</p>
-          <p class="p2">
-            EBT vendors: Claim Your Share Of SNAP Online Revenue.
-          </p>
-          <p class="p3">By Mr Selsa/ Feb 10, 2022</p>
-        </div>
-        <div class="fashion">
-          <img src="images/blog-4.jpg" alt="" srcset="" />
-          <p class="p1">Shoes</p>
-          <p class="p2">
-            Curbside fashion Trends: How to Win the Pickup Battle.
-          </p>
-          <p class="p3">By Mr pawar/ Mar 15,2022</p>
-        </div>
-      </section>
-    </section>
+  <!-- products display section starts here  -->
+</main>
 
-    <footer class="footer1">
-      <div>
-        <h4>Brand Factory</h4>
-      </div>
+<!-- products display section ends here  -->
 
-      <div class="range">
-        <span>Fashion:</span> T-shirt | Shirts | Shorts & Jeans | Jacket | Dress
-        & Frock | Innerwear |Hosiery
-      </div>
-      <div class="range">
-        <span>Footwear:</span> Sport | Fpormal | Boots | Casual | Cowboy Shoes |
-        Safety Shoes | Party Wear Shoes | Branded | Firstcopy |Long Shoes
-      </div>
-      <div class="range">
-        <span>Jewellery:</span> Necklace | Earings | Couple Rings | Pendants |
-        Crystal |Bangles | Bracelets | Nosepin |Chain | Couple Rings
-      </div>
-      <div class="range">
-        <span>Cosmetics:</span> Shampoo | Bodywash | Facewash | Makeup Kit |
-        Liner | Lipstick | Perfume | Body Soap | Scrub | Hair Gel | Hair Dye |
-        Sunscreen | Skin Loson | Liner
-      </div>
-    </footer>
+<!-- main section ends here  -->
 
-    <footer class="footer2 flex">
-      <div class="footer_tiles">
-        <h4>Popular Categories</h4>
-        <ul>
-          <li>Fashion</li>
-          <li>Electronics</li>
-          <li>Cosmetic</li>
-          <li>Health</li>
-          <li>Watches</li>
-        </ul>
-      </div>
-      <div class="footer_tiles">
-        <h4>Products</h4>
-        <ul>
-          <li>Prices Drop</li>
-          <li>New Products</li>
-          <li>Best Sales</li>
-          <li>Contact us</li>
-          <li>Sitemap</li>
-        </ul>
-      </div>
-      <div class="footer_tiles">
-        <h4>Our Company</h4>
-        <ul>
-          <li>Delivery</li>
-          <li>Legal Notice</li>
-          <li>Terms And Conditions</li>
-          <li>About Us</li>
-          <li>Secure Payment</li>
-        </ul>
-      </div>
-      <div class="footer_tiles">
-        <h4>Services</h4>
-        <ul>
-          <li>Clothes</li>
-          <li>Footwear</li>
-          <li>Make Up</li>
-          <li>Home Delivery</li>
-          <li>Cosmetics</li>
-        </ul>
-      </div>
-      <div class="footer_tiles contact_footer">
-        <h4>Contact</h4>
-        <ul>
-          <li>419, State 414 Rite Beaver Dams, New York(NY), 14812, USA</li>
-          <li>(607) 936-8058</li>
-          <li>example@gmail.com</li>
-        </ul>
-      </div>
-    </footer>
+<!-- summer collection css  -->
 
-    <footer class="footer3">
-      <img src="images/payment.png" alt="" srcset="" />
-      <div>
-        <p>Copyright &copy; AirCommerce All Rights Reserved.</p>
-      </div>
-    </footer>
-  </body>
-</html>
+<section class="summer_collection flex container_property">
+  <div class="testimonial">
+    <h4>Testimonial</h4>
+    <div class="boundry flex">
+      <img src="images/testimonial-1.jpg" alt="" class="image" />
+      <h4>Alan Doe</h4>
+      <p>CEO & Founder Invision</p>
+      <img src="images/icons/quotes.svg" alt="" class="collen" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
+        provident labore.
+      </p>
+    </div>
+  </div>
+  <div class="collection">
+    <img src="images/cta-banner.jpg" alt="" />
+    <div class="summer_child flex">
+      <button>25% Discount</button>
+      <h3>Summer Collection</h3>
+      <p>Starting @ rs 10</p>
+      <h4>Shop now</h4>
+    </div>
+  </div>
+  <div class="testimonial">
+    <h4>Our Services</h4>
+    <div class="boundry flex">
+      <img src="images/testimonial-1.jpg" alt="" class="image" />
+      <h4>Alan Doe</h4>
+      <p>CEO & Founder Invision</p>
+      <img src="images/icons/quotes.svg" alt="" class="collen" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
+        provident labore.
+      </p>
+    </div>
+  </div>
+  <div class="services"></div>
+</section>
+
+<!-- summer collection end here  -->
+
+<!-- plate section starts here  -->
+
+<section class="plate container_property">
+  <div class="fashion">
+    <img src="images/blog-1.jpg" alt="" />
+    <p class="p1">Fashion</p>
+    <p class="p2">Clothes retail Kpis 2021 Guide for Clothes Executives</p>
+    <p class="p3">By Mr Admin / Apr 06,2022</p>
+  </div>
+  <div class="fashion">
+    <img src="images/blog-2.jpg" alt="" srcset="" />
+    <p class="p1">Clothes</p>
+    <p class="p2">Curbside fashion Trends: How to Win the Pickup Battle</p>
+    <p class="p3">By Mr Robin / Jan 18,2022</p>
+  </div>
+  <div class="fashion">
+    <img src="images/blog-3.jpg" alt="" srcset="" />
+    <p class="p1">Electronics</p>
+    <p class="p2">EBT vendors: Claim Your Share Of SNAP Online Revenue.</p>
+    <p class="p3">By Mr Selsa/ Feb 10, 2022</p>
+  </div>
+  <div class="fashion fashion4">
+    <img src="images/blog-4.jpg" alt="" srcset="" />
+    <p class="p1">Shoes</p>
+    <p class="p2">Curbside fashion Trends: How to Win the Pickup Battle.</p>
+    <p class="p3">By Mr pawar/ Mar 15,2022</p>
+  </div>
+</section>
+
+<!-- plate section ends here  -->
+
+<!-- footer section start from here  -->
+
+<!-- footer1 starts here  -->
+
+<footer class="footer1 container_property">
+  <div>
+    <h4>Brand Factory</h4>
+  </div>
+
+  <div class="range">
+    <span>Fashion:</span> T-shirt | Shirts | Shorts & Jeans | Jacket | Dress &
+    Frock | Innerwear |Hosiery
+  </div>
+  <div class="range">
+    <span>Footwear:</span> Sport | Fpormal | Boots | Casual | Cowboy Shoes |
+    Safety Shoes | Party Wear Shoes | Branded | Firstcopy |Long Shoes
+  </div>
+  <div class="range">
+    <span>Jewellery:</span> Necklace | Earings | Couple Rings | Pendants |
+    Crystal |Bangles | Bracelets | Nosepin |Chain | Couple Rings
+  </div>
+  <div class="range">
+    <span>Cosmetics:</span> Shampoo | Bodywash | Facewash | Makeup Kit | Liner |
+    Lipstick | Perfume | Body Soap | Scrub | Hair Gel | Hair Dye | Sunscreen |
+    Skin Loson | Liner
+  </div>
+</footer>
+
+<!-- footer 1 ends here  -->
+
+<!-- footer 2 starts here  -->
+
+<footer class="footer2 flex container_property">
+  <div class="footer_tiles">
+    <h4>Popular Categories</h4>
+    <ul>
+      <li>Fashion</li>
+      <li>Electronics</li>
+      <li>Cosmetic</li>
+      <li>Health</li>
+      <li>Watches</li>
+    </ul>
+  </div>
+  <div class="footer_tiles">
+    <h4>Products</h4>
+    <ul>
+      <li>Prices Drop</li>
+      <li>New Products</li>
+      <li>Best Sales</li>
+      <li>Contact us</li>
+      <li>Sitemap</li>
+    </ul>
+  </div>
+  <div class="footer_tiles">
+    <h4>Our Company</h4>
+    <ul>
+      <li>Delivery</li>
+      <li>Legal Notice</li>
+      <li>Terms And Conditions</li>
+      <li>About Us</li>
+      <li>Secure Payment</li>
+    </ul>
+  </div>
+  <div class="footer_tiles">
+    <h4>Services</h4>
+    <ul>
+      <li>Clothes</li>
+      <li>Footwear</li>
+      <li>Make Up</li>
+      <li>Home Delivery</li>
+      <li>Cosmetics</li>
+    </ul>
+  </div>
+  <div class="footer_tiles">
+    <h4>Contact</h4>
+    <ul>
+      <li>419, State 414 Rite Beaver Dams, New York(NY), 14812, USA</li>
+      <li>(607) 936-8058</li>
+      <li>example@gmail.com</li>
+    </ul>
+  </div>
+</footer>
+
+<!-- footer 2 ends here  -->
+
+<!-- footer 3 starts here  -->
+
+<footer class="footer3 container_property">
+  <img src="images/payment.png" alt="" srcset="" />
+  <div>
+    <p>Copyright &copy; AirCommerce All Rights Reserved.</p>
+  </div>
+</footer>
+
+<!-- footer 3 ends here  -->
+
+<!-- footer section ends here  -->
