@@ -336,7 +336,7 @@ i {
     position: sticky;
     top: 0;
     height: min-content;
-    border: 2px solid blue;
+
 
 }
 
@@ -606,7 +606,7 @@ i {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto;
-    border: 2px solid green;
+
     row-gap: 20px;
     column-gap: 20px;
 }
@@ -1040,6 +1040,11 @@ i {
         margin-bottom: -20px;
     }
 
+    .top_rated {
+        width: 100%;
+        margin-left: 50%;
+    }
+
 
 
 
@@ -1234,6 +1239,11 @@ i {
         row-gap: 20px;
         margin: 20px;
 
+    }
+
+    .top_rated {
+        width: 100%;
+        margin-left: 0;
     }
 
     /* summer collection and tiles responsive  css  */
